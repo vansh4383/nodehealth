@@ -1,0 +1,14 @@
+#!/bin/bash
+############
+# Author : Vansh Mahajan 
+# Date : July 7,2024 
+# Description : This shell file is written to check the node health of the operating system 
+# Version : 1
+############
+set - exu pipefail
+#to check the available diskspace
+df -h 
+#to check the available memory 
+free -g 
+#to check the available cpu
+nproc 
